@@ -1,0 +1,1 @@
+const solution = n => result = n.toString().split('').map(Number).reduce((prev,curr)=>prev+curr)
