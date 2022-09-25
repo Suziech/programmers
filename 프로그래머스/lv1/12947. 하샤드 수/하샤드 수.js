@@ -1,0 +1,1 @@
+const solution = x => x%x.toString().split('').map(Number).reduce((prev,curr)=>prev+curr) === 0 && true
