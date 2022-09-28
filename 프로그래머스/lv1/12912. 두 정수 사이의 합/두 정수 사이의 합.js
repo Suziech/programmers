@@ -1,19 +1,18 @@
 function solution(a, b) {
-    if(Math.abs(a-b)===0){
-        return a;
-    } 
+    if (a === b) {
+        return a
+    }
     
-let result = 0;
-    if(a<b){
+    let addNum = 0;
+    if (a < b) {
         for(let i=a; i<b+1; i++){
-            result+=i;
+            addNum += i;
         }
-        return result;
-        
-    } else if(a>b) {
+        return addNum;
+    } else {
         for(let i=b; i<a+1; i++){
-          result+=i;
+            addNum += i;
         }
-        return result;
+        return addNum;
     }
 }
