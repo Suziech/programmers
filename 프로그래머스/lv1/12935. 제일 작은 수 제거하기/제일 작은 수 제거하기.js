@@ -1,0 +1,1 @@
+const solution = arr => arr.length>1 ? arr.filter(ele => ele > Math.min(...arr)) : [-1]
