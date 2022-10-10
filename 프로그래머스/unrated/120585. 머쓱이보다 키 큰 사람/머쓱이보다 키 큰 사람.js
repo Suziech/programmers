@@ -1,0 +1,1 @@
+const solution = (array, height) => array.filter(student => student > height).length
