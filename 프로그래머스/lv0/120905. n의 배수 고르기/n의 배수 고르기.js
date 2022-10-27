@@ -1,0 +1,1 @@
+const solution = (n, numlist) => numlist.filter(ele => ele%n === 0)
