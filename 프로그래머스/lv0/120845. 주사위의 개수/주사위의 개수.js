@@ -1,0 +1,1 @@
+const solution = (box, n) => box.map(ele => parseInt(ele/n)).reduce((acc,cur) => acc*cur)
