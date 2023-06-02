@@ -1,0 +1,1 @@
+const solution = num_list => num_list.indexOf(num_list.filter(num => num<0)[0])
