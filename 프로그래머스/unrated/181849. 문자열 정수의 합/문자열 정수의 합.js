@@ -1,0 +1,1 @@
+const solution = num_str => num_str.split('').map(num => Number(num)).reduce((acc, cur)=>acc+cur)
