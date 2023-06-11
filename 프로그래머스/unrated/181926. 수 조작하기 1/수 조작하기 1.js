@@ -1,0 +1,1 @@
+const solution = (n,control) => control.split('').map(word => word === 'w' ? 1 : word === 's' ? -1 : word === 'd' ? 10 : word === 'a' ? -10 : null).reduce((acc,cur) => acc+cur) + n
