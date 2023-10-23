@@ -1,0 +1,1 @@
+const solution = number => number.split('').map(Number).reduce((acc,cur)=>acc+cur)%9
